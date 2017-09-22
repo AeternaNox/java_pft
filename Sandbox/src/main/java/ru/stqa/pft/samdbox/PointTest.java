@@ -2,10 +2,10 @@ package ru.stqa.pft.samdbox;
 
 public class PointTest {
   public static void main(String[] args) {
-    double x1 = 2;
-    double y1 = 3;
+    double x1 = 5;
+    double y1 = 4;
     double x2 = 4;
-    double y2 = 8;
+    double y2 = 2;
 
     System.out.println("Проверка расстояния между точками: p1 (" + x1 + ", " + y1 + ") и p2 (" + x2 + ", " + y2 + ") равно " + distances(x1, y1, x2, y2));
 
